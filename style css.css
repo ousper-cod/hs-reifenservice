@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+
+.titulo {
+    background-color: #54a0ff;
+    font-family: verdana;
+    font-size: 23px;
+    font-weight: 1000;
+    font-style: normal;
+    font-display: normal;
+    font-stretch: normal;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-overflow: clip;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    direction: normal;
+}
+
+body {
+    background-color: #c7ecee;
+}
+.menuhs { 
+    background-color: #22a6b3;     
+    font-family: Verdana;
+    font-size: 19px;
+    font-style: normal;
+    font-display: normal;
+    font-stretch: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: none;
+}
+
+.menuhs li {
+    list-style: none;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    font-style: normal;
+    font-display: normal;
+    font-stretch: normal;
+    text-align: center;
+    text-transform: capitalize;
+    text-overflow: clip;
+    direction: normal;
+}
+
+table {
+    margin: 12px;
+    font-family: verdana;
+    text-align: center;
+}
+
+.titulotabla {
+    background-color: #f6e58d;
+    text-align: center;
+}
+.montag {
+    background-color: #95afc0;
+}
+.dienstag {
+    background-color:#f6e58d;
+}
+.mittwoch {
+    background-color: #95afc0;
+}
+.donnerstag {
+    background-color: #f6e58d;
+}
+
+.freitag {
+    background-color: #95afc0;
+}
+
+.samstag {
+    background-color: #f6e58d;
+}
+
+.email, .correo {
+    background-color: #95afc0;
+}
+.adresa, .calle {
+    background-color: #95afc0;
+}
+.telefon, .numero {
+    background-color: #f6e58d;
+    text-align: center;
+}
+
+.dia, .hora {
+    font-size: 17px;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 300px;
+}
+
+@keyframes cambio {
+    0%  { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.hslogo {
+    width: 300px;
+    height: 125px;
+}
+
+.completcar {
+    margin-top: 30px;
+}
+
+.todogaraje {
+    margin-top: 30px;
+
+}
+
+.mediogaraje {
+    margin-top: 30px;
+}
+
+
+iframe {
+    padding: 20px;
+}
+
+.stau {
+    font-family: verdana;
+    font-size: 17px;
+    padding-left: 30px;
+}
+
